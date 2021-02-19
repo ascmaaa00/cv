@@ -2,7 +2,7 @@
 
 baseURL = "https://ascmaaa00.github.io/cv/"
 languageCode = "en"
-title = "Resume of Ben Wang"
+title = "Resume of Shawn Ke"
 theme = "devresume"
 publishDir = "docs"
 # googleAnalytics = "UA-XXXXXXX-Y"
@@ -25,7 +25,7 @@ publishDir = "docs"
 
     [params.profile]
         enable = true
-        name = "王柏元 Ben Wang"
+        name = "柯翔之 Shawn Ke"
         tagline = "Engineer"
         avatar = "avatar.png"
 
@@ -37,7 +37,7 @@ publishDir = "docs"
 
     [params.contact]
         enable = true
-        location = "Xindian"
+        location = "Taipei"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
