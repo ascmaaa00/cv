@@ -1,0 +1,313 @@
+# Page settings
+
+baseURL = "https://uncleben006.github.io/resume/"
+languageCode = "en"
+title = "Resume of Ben Wang"
+theme = "devresume"
+publishDir = "docs"
+# googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "王柏元 Ben Wang"
+        tagline = "Engineer"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Xindian"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "0966527002"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "uncleben006@gmail.com"
+        # [[params.contact.list]]
+        # icon = "fas fa-globe"
+        # url = "#"
+        # text = "www.yourwebsite.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"        
+        [[params.skills.list.items]]
+        details = "Python/PHP"        
+        [[params.skills.list.items]]
+        details = "JavaScript/Vue/Knockout"
+        [[params.skills.list.items]]
+        details = "CSS/Bootstrap/Sass"
+        [[params.skills.list.items]]
+        details = "MySQL/MariaDB/PostgreSQL/MongoDB"
+        [[params.skills.list.items]]
+        details = "Laravel/Magento"
+        [[params.skills.list.items]]
+        details = "Django/Flask"         
+        [[params.skills.list.items]]
+        details = "linux/ubuntu/nginx/docker"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+
+        [[params.skills.list]]
+        title = "Soft Skills"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Continuous improvement"
+        [[params.skills.list.items]]
+        details = "Focus on teamwork" 
+        [[params.skills.list.items]]
+        details = "Effective communication"               
+        [[params.skills.list.items]]
+        details = "Strong sense responsibility"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Information and Communication"
+        university = "Shih Hsin University"
+        dates = "2013 - 2017"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Chinese"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Fluent"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Learning"
+        [[params.interests.list]]
+        name = "Badmintion"
+        [[params.interests.list]]
+        name = "Travelling"     
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "I am always passionate about self-development. In the past three years in HTC, I have continued to study the knowledge of network management and various technologies. Also work with our team and became familiar with the process of website setup, development and deployment, and have the opportunity to mantain and develop multiple projects. It was a great experience for me to learn so much and work with so many excellent people. I believe that I can use my experience and the knowledges to help the team grow. Also, I look forward to the new values and growth we can bring together."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Engineer"
+        dates = "2019 - 2020"
+        company = "HTC"                
+            
+            [[params.experience.list.items]]      
+                label = "Maintain and develop EC projects."          
+                details = "VIVE eCommerce website, VIVELAND webpos system, VR developer hub etc."
+            [[params.experience.list.items]]
+                details = "Develop new features based on internal requests."
+            [[params.experience.list.items]]
+                details = "Communicate with PM, DevOps and QA to ensure the update fulfill the request."                
+            [[params.experience.list.items]]                
+                label = "Data transfer and Cross-system integration"
+                details = "Obtain data from multiple databases and generate digital reports." 
+            [[params.experience.list.items]]
+                details = "Modify system logic and database structure to integrate feature with other systems."
+            [[params.experience.list.items]]
+                details = "Data transfer with other dept using API."            
+
+        [[params.experience.list]]
+        title = "Specialist"
+        dates = "2017 - 2019"
+        company = "HTC"
+
+            [[params.experience.list.items]]       
+                label = "Maintain and deploy website"
+                details = "VIVE Official Website, VIVELAND eCommerce website, VR developer hub etc."
+            [[params.experience.list.items]]
+                details = "Update and deploy website for global countries when product launch."              
+            [[params.experience.list.items]]                
+                label = "Data Transfer and Cross-system integration"
+                details = "Modify system logic and database structure to integrate feature with other systems."                
+            [[params.experience.list.items]]
+                details = "Data transfer with other system using API and SQL"     
+
+        [[params.experience.list]]
+        title = "Contractor"
+        dates = "2017 - 2017"
+        company = "HTC"
+            [[params.experience.list.items]]
+                details = "I was hired as a contractor while studying. In charge of maintaining the official website."
+
+        [[params.experience.list]]
+        title = "Database Operator"
+        dates = "2015 - 2016"
+        company = "Mandarin Library & Information Service Co., Ltd."
+        [[params.experience.list.items]]
+            details = "Responsible for creating and maintaining the citation data for TCI-HSS (Taiwan Citation index - Human and Social Sciences) " 
+        [[params.experience.list.items]]  
+            details = "The citation is the reference material of various academic papers like journal articles, doctoral thesis. Used as one of a standard to calculate the value of academic papers."
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Django"
+        meta = "Content manager"
+        tagline = "We choose Django as CMS for HTC official website. I served as a content manager, responsible for the product setting and front end updating. Also in charge of the website deployment when product launch."
+
+        [[params.projects.list]]
+        title = "VR Developer Hub"
+        meta = "Developer"
+        tagline = "As it's name, this website is for developers and the content inside includes VR-related SDKs and API document. While the developers browse the website, ideally we expect to contact the developer and collect their information. And use these personal information to do some more precise marketing. However our CRM system, Hubspot, wasn't suitable for such complicate sales logic."
+        tagline2 = "So we import Salesforce. I transfered the old data and established a form builder system connected with Salesforce in the background. All fields correspond to the Salesforce API and can be directly store into the platform after submit. Therefore the form that originally connected with Hubspot will no need to update their code if they are going to submit to Salesforce."
+
+        [[params.projects.list]]
+        title = "VIVE eCommerce"
+        meta = "Developer"
+        tagline = "We choose Magento for our eCommerce framework. I maintain and develop based on internal requests. It is a large and stable system so I don't need to update the code frequently. But still we need to integrate data or features with other dept sometimes."
+        tagline2 = "For example, VIVELAND teams - game content team - once implement a whole new flow to provide users redeem their content. This will cause users unable to find their redeemed content on shopping website because the new process uses SSO, which uses a string of garbled as ID, and Magento uses email as ID by default. Anyway we fixed it at the end by updating the system logic, database structure."
+
+        [[params.projects.list]]
+        title = "VIVELAND Webpos"
+        meta = "Developer"
+        tagline = "This system is an online cash register. It help Syntrend VIVELAND to record their daily revenue. I was in charge to maintain the system and create various report for sales team to reference. Worth memthion is that webpos only had the ability to record revenue. So we let it integrate with VIVELAND's member system to achieve cumulative member spending. Hope we can do more accurate marketing to users with higher consumption in the future."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/uncleben006"
+        title = "uncleben006"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/uncleben006"
+        title = "uncleben006"
+        # [[params.social.list]]
+        # icon = "fab fa-twitter-square"
+        # url = "//twitter.com/username"
+        # title = "@username"
+
+
+
+
+
