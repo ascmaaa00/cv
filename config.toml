@@ -4,7 +4,8 @@ baseURL = "https://ascmaaa00.github.io/cv/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+publishDir = "docs"
+# googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
