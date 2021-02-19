@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://github.com/ascmaaa00/cv/"
+baseURL = "https://ascmaaa00.github.io/cv/"
 languageCode = "en"
 title = "Resume of Ben Wang"
 theme = "devresume"

@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Resume of Ben Wang</title>
-    <link>https://github.com/ascmaaa00/cv/tags/</link>
+    <link>https://ascmaaa00.github.io/cv/tags/</link>
     <description>Recent content in Tags on Resume of Ben Wang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://github.com/ascmaaa00/cv/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://ascmaaa00.github.io/cv/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
