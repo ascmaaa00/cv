@@ -25,7 +25,7 @@ publishDir = "docs"
 
     [params.profile]
         enable = true
-        name = "Simon Doe"
+        name = "Shawn Ke"
         tagline = "Senior Software Engineer"
         avatar = "avatar.png"
 
